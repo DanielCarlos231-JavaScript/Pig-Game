@@ -1,0 +1,20 @@
+{
+	"name": "pig-game",
+	"version": "1.0.0",
+	"description": "",
+	"default": "index.html",
+	"scripts": {
+		"start": "parcel index.html",
+		"build": "parcel build --no-cache index.html --dist-dir ./dist"
+	},
+	"author": "Daniel Carlos",
+	"license": "ISC",
+	"devDependencies": {
+		"parcel": "^2.8.3",
+		"parcel-reporter-static-files-copy": "^1.5.0"
+	},
+	"staticFiles": {
+		"staticPath": "assets",
+		"staticOutPath": "assets"
+	}
+}
